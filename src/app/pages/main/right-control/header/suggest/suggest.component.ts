@@ -8,7 +8,7 @@ import { floorToDate, getTodayTime, ONE_DAY } from '../../../../../../utils/time
 @Component({
   selector: 'app-suggest',
   templateUrl: './suggest.component.html',
-  styleUrls: [ './suggest.component.less' ]
+  styleUrls: [ './suggest.component.scss' ]
 })
 export class SuggestComponent implements OnInit, OnDestroy {
   suggestedTodo: Todo[] = [];

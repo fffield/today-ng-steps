@@ -3,7 +3,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 @Component({
   selector: 'app-quick-add',
   templateUrl: './quick-add.component.html',
-  styleUrls: [ './quick-add.component.less' ]
+  styleUrls: [ './quick-add.component.scss' ]
 })
 export class QuickAddComponent implements OnInit {
   @Output() add = new EventEmitter<string>();

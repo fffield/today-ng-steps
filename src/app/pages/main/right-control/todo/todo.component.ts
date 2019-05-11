@@ -21,7 +21,7 @@ const rankerGenerator = (type: RankBy = 'title'): any => {
 @Component({
   selector: 'app-todo',
   templateUrl: './todo.component.html',
-  styleUrls: [ './todo.component.less' ]
+  styleUrls: [ './todo.component.scss' ]
 })
 export class TodoComponent implements OnInit, OnDestroy {
   private dropdown: NzDropdownContextComponent;

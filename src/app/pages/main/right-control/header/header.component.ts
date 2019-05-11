@@ -8,7 +8,7 @@ import { TodoService } from '../../../../services/todo/todo.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: [ './header.component.less' ]
+  styleUrls: [ './header.component.scss' ]
 })
 export class HeaderComponent implements OnInit, OnDestroy {
   private unsubscribe$ = new Subject<void>();

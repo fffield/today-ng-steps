@@ -13,7 +13,7 @@ import { setupTransition } from './setup.animation';
 @Component({
   selector: 'app-setup',
   templateUrl: './setup.component.html',
-  styleUrls: [ './setup.component.less' ],
+  styleUrls: [ './setup.component.scss' ],
   animations: [ setupTransition ]
 })
 

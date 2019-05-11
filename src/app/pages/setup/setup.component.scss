@@ -1,4 +1,4 @@
-@import "../../../assets/less/variables";
+@import "../../../assets/scss/variables";
 
 div.page-content {
   display: flex;
@@ -36,7 +36,7 @@ div.page-content {
       .title-text {
         font-size: 24px;
         font-style: italic;
-        color: @grey-text;
+        color: $grey-text;
       }
     }
 

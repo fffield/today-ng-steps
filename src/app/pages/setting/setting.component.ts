@@ -9,7 +9,7 @@ import { AVATAR_CODE, USERNAME } from '../../services/local-storage/local-storag
 @Component({
   selector: 'app-setting',
   templateUrl: './setting.component.html',
-  styleUrls: [ './setting.component.less' ],
+  styleUrls: [ './setting.component.scss' ],
   animations: [ pageSwitchTransition ]
 })
 export class SettingComponent implements OnInit {

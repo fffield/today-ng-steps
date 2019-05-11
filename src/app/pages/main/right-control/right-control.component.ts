@@ -4,7 +4,7 @@ import { TodoComponent } from './todo/todo.component';
 @Component({
   selector: 'app-right-control',
   templateUrl: './right-control.component.html',
-  styleUrls: [ './right-control.component.less' ]
+  styleUrls: [ './right-control.component.scss' ]
 })
 export class RightControlComponent implements OnInit {
   @ViewChild(TodoComponent) public todoList: TodoComponent;

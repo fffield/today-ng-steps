@@ -16,7 +16,7 @@ import { Summary } from '../../../domain/entities';
 @Component({
   selector: 'app-summary',
   templateUrl: './summary.component.html',
-  styleUrls: [ './summary.component.less' ],
+  styleUrls: [ './summary.component.scss' ],
   animations: [ pageSwitchTransition ]
 })
 export class SummaryComponent implements OnInit {

@@ -7,7 +7,7 @@ import { USERNAME } from '../../../services/local-storage/local-storage.namespac
 @Component({
   selector: 'app-left-control',
   templateUrl: './left-control.component.html',
-  styleUrls: [ './left-control.component.less' ]
+  styleUrls: [ './left-control.component.scss' ]
 })
 export class LeftControlComponent implements OnInit {
   @Input() isCollapsed: boolean;
